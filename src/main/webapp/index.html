@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>devSquad</title>
+<link rel="icon" href="assets/imagem/logo-icone.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body >
+	<div class="container">
+		<div class="degrade">
+			<div class="icone">
+				<div class="cadastro">
+					<div class="cadastreSe">
+						Ainda não é cadastrado <br> na plataforma de feedback?
+					</div>
+					<a href="cadastro.jsp" class="botao1" >Cadastre-se</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="login">
+			<div class="mensagem">
+			</div>
+			<img src="assets//imagem/logo.png" width="150px">
+			<div class="subTitulo">
+				Login
+			</div>
+			<form name="frmLogin" action="login">
+				<label class="labelLogin"> E-mail </label>
+				<input type="text" placeholder="digite seu e-mail" name="email" id="email">
+				<label class="labelSenha"> Senha </label>
+				<input type="password" placeholder="digite sua senha" name="senha" id="senha">
+			</form>
+
+			<div class="botao1" onclick="autorizacao()" >Login</div> 
+		</div>
+	</div>
+	 <script src="assets/script/validaTextArea.js"></script> 
+</body>
+</html>
